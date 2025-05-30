@@ -10,7 +10,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
-    "uniffi-bindgen-react-native": "https://github.com/jhugman/uniffi-bindgen-react-native.git#main",
+    "uniffi-bindgen-react-native": "git+https://github.com/jhugman/uniffi-bindgen-react-native#ad1e3351459f6acce95d403742999fac1b343e64",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -18,8 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ubrn:web": "ubrn build web --config ubrn.config.yaml",
-    "ubrn:generate": "ubrn generate wasm bindings",
+    "ubrn:web:build": "ubrn build web --config ubrn.config.yaml",
     "ubrn:checkout": "ubrn checkout --config ubrn.config.yaml"
   },
   "eslintConfig": {
